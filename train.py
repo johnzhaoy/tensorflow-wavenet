@@ -21,6 +21,7 @@ from wavenet import WaveNetModel, AudioReader, optimizer_factory
 
 BATCH_SIZE = 1
 DATA_DIRECTORY = '.\\VCTK-Corpus'
+DATA_DIRECTORY = 'F:\My_Stuff\Tongji\Graduation\Thesis\Database\Samples\High'
 LOGDIR_ROOT = '.\\logdir'
 CHECKPOINT_EVERY = 50
 NUM_STEPS = int(1e5)
